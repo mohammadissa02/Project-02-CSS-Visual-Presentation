@@ -23,25 +23,28 @@ body {
     border-radius: 10px;
 }
 
+
 .named-color {
-    background-color:blue;
+    background-color: steelblue;
     color: white;
 }
+
 
 .hex-color {
-    background-color:blue;
+    background-color: #4682B4;
     color: white;
 }
+
 
 .rgb-color {
-    background-color: blue;
+    background-color: rgb(70, 130, 180);
     color: white;
 }
 
+
 .rgba-color {
-    background-color: blue;
+    background-color: rgba(70, 130, 180, 0.5);
     color: white;
-    opacity: 0.5;
 }
 
 .comparison-container {
@@ -59,14 +62,15 @@ body {
     box-sizing: border-box;
 }
 
+
 .opacity-box {
-    background-color:red;
+    background-color: rgb(0, 0, 0);
     opacity: 0.5;
 }
 
-.rgba-box {
-    background-color:red;
 
+.rgba-box {
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
 .child {
